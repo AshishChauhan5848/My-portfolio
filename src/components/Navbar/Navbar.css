@@ -109,7 +109,7 @@
         font-size: 0.7rem;
       }
       .Navbar-list a:hover {
-  color: var(--hover-color);
+  color: var(--text-color2);
 }
 
     
@@ -140,7 +140,7 @@
       font-weight: 100;
     }
     .Navbar-list a:hover {
-        color: var(--hover-color);
+        color: var(--text-color2);
       }
       
   
