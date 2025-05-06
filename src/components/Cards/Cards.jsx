@@ -1,5 +1,5 @@
 import React from 'react'
-import "./cards.css"
+import "./Cards.css"
 import {assets}  from '../../assets/assets.js'
 import ProfileCards from "../Card/ProfileCards";
 
