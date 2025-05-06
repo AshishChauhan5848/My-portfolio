@@ -1,7 +1,7 @@
 import React from "react";
 
 import Cards from "../Cards/Cards";
-import "./skills.css";
+import "./Skills.css";
 
 const Skills = () => {
   return (
