@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap');
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Outfit', sans-serif;
+  scroll-behavior: smooth;
+}
+
+body  {
+  min-height: 100vh;
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+
+
+
+:root {
+  --text-color:  #ffffff;          /* Deep Charcoal */
+  --text-color2:  #00d5ff;          /* Deep Charcoal */
+  --background-color: #a7a3a346;    /* Elegant Off-White */
+  --background-color2: #dc5f00; 
+  --background-color3: #75020f; 
+  --highlight-color: #00d5ff;          /* Card/Content Background */
+  --about-color: #000000;          /* Card/Content Background */
+  --muted-color: #bdbdbd;         /* Muted Gray for borders/placeholders */
+
+
+
+  --hover-color: #00d5ff00;        /* Darker purple for hover effects */
+  --shadow-color: rgba(0, 0, 0, 0.15);  /* Elegant subtle shadow */
+  
+}

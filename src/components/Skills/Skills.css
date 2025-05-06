@@ -1,0 +1,201 @@
+.skills{
+    height: 620px;
+    width: 100%;
+    background-color: var(--about-color);
+    /* border: 3px solid rgb(0, 217, 255); */
+}
+
+.skills-all{
+    width: 70%;
+    margin: auto;
+    padding-top: 50px;
+}
+
+.skill-content{
+    
+    color: var(--text-color);
+   /* margin-top: 50px; */
+   display: flex;
+   align-items: center;
+}
+
+.skill-content hr{
+    width: 40px;
+    height: 11px;
+    background-color: #fff;
+    margin-right: 30px;
+    
+}
+
+
+.skill-content h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1.2rem;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: auto;
+}
+
+.para p{
+    color: #fff;
+    margin-top: 8px;
+    margin-left: 69px;
+    font-weight: 100;
+    padding: 0;
+
+}
+
+
+
+
+/* MEDIA QUERY fOR RESPONSIVENES */
+
+@media (max-width: 480px) {
+
+    .skills{
+        height: 630px;
+        overflow:auto;
+        
+    }
+    
+    .skills-all{
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    .skill-content{
+        
+       display: flex;
+       align-items: center;
+    }
+    
+    .skill-content hr{
+        width: 25px;
+        height: 6px;
+        margin-right: 20px;
+        
+    }
+    
+    .skill-content h3{
+        font-size: 3vw;
+    }
+    
+    .para p{
+        font-size: 2.3vw;
+        margin-top: 8px;
+        margin-left: 45px;
+    
+    }
+    
+    
+
+
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 767px) {
+    .skills{
+        height: 640px;
+        overflow:auto;
+        
+    }
+    
+    .skills-all{
+        width: 90%;
+        padding-top: 20px;
+    }
+    
+    .skill-content{
+        
+       display: flex;
+       align-items: center;
+    }
+    
+    .skill-content hr{
+        width: 25px;
+        height: 6px;
+        margin-right: 20px;
+        
+    }
+    
+    .skill-content h3{
+        font-size: 3vw;
+    }
+    
+    .para p{
+        font-size: 2.3vw;
+        margin-top: 8px;
+        margin-left: 45px;
+    
+    }
+    
+}
+
+
+
+/* Styles for tablets */
+@media (min-width: 767px) and (max-width: 1024px) {
+    .skills{
+        height: 640px;
+        overflow:auto;
+        
+    }
+    
+    .skills-all{
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .skill-content{
+        
+       display: flex;
+       align-items: center;
+    }
+     
+    .skill-content h3{
+        font-size: 2vw;
+    }
+    
+    .para p{
+        font-size: 1.5vw;
+        margin-top: 8px;
+        margin-left: 70px;
+    }
+}
+
+
+/* Styles for laptops */
+@media (min-width: 1024px) and (max-width: 1280px) {
+
+    .skills{
+        height: 600px;
+        overflow:auto;
+        
+    }
+    
+    .skills-all{
+        width: 80%;
+        padding-top: 20px;
+    }
+    
+    .skill-content{
+        
+       display: flex;
+       align-items: center;
+    }
+     
+    .skill-content h3{
+        font-size: 2vw;
+    }
+    
+    .para p{
+        font-size: 1.5vw;
+        margin-top: 8px;
+        margin-left: 70px;
+    
+    }
+}

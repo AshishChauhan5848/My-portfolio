@@ -1,0 +1,442 @@
+@import url('https://fonts.googleapis.com/css2?family=Teko:wght@300..700&display=swap');
+
+
+.home{
+  height: 620px;
+  width: 100vw;
+  background-color: var(--about-color);
+  /* border: 3px solid rgb(0, 217, 255); */
+  
+}
+
+.home-all{
+  width: 80%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+
+.image-wrapper{
+    position: static;
+    width: 100%;
+    /* max-width: 1920; */
+    margin: auto;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: 550px;
+    display: block;
+    object-fit:cover;
+  }
+  
+  .overlay-text {
+    width: 80%;
+    position: absolute;
+    top: 35%;
+    /* left: 50%; */
+    color: white;  
+    margin-left: 35px;  
+    padding: 20px;
+    font-size: 2rem;
+    
+  }
+
+  .overlay-text h2{
+    line-height: 1.1;
+    font-family: Outfit,sans-serif;
+    font-weight: 400 ;
+  }
+
+.typewriterpara {
+  font-family: 'Poppins', sans-serif; /* or monospace, cursive, etc. */
+  font-size: 18px;                    /* Adjust size as needed */
+  font-weight: 500;
+  color: #00d5ff;                        /* Optional */
+}
+
+.home-buttons {
+    margin-top: 15px;
+    
+}
+
+
+
+.home-buttons a{
+    font-family: "outfit";
+    font-size: 20px;
+    font-weight: 100;
+    padding: 15px;
+    
+}
+
+.home-buttons button{
+    background-color: #000000;
+    color: rgb(255, 255, 255);
+    border: 1px solid rgb(255, 255, 255);
+    margin-right: 24px;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+}
+.home-buttons button:hover {
+    background-color: #00d5ff; 
+    color: black;
+ }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+ /* media queries responsiveness */
+
+
+ @media (max-width: 480px) { 
+  
+    
+.home{
+  height: 245px;
+  width: 100vw;  
+}
+
+.home-all{
+  width: 95%;
+  margin: auto;
+  padding-top: 40px;
+}
+
+.background-img {
+  width: 100%;
+  height: 200px;
+}
+
+.overlay-text {
+  width: 90%;
+  top: 12%; 
+  margin-left: 5px;  
+  padding: 5px;
+  font-size: 0.7rem;
+  
+}
+
+.overlay-text h2{
+  font-weight: 100 ;
+  font-size: medium;
+}
+
+.typewriterpara {
+font-size: 8px;                    /* Adjust size as needed */
+font-weight: 100;                      /* Optional */
+}
+
+.home-buttons {
+  margin-top: 8px;
+  height: 10px;
+  
+}
+
+
+
+.home-buttons button a{
+  display: flex;
+  font-size: 5px;
+  font-weight: 100;
+  padding: 1px;
+  
+}
+
+
+.home-buttons button{
+  margin-right: 8px;
+  border-radius: 2px;
+  padding: 1px;
+  height: 9px;
+ 
+} 
+}
+
+
+
+
+@media (min-width: 480px) and (max-width: 767px) { 
+  
+    
+  .home{
+    height: 339px;
+    width: 100vw;  
+  }
+  
+  .home-all{
+    width: 95%;
+    margin: auto;
+    padding-top: 40px;
+  }
+  
+  .background-img {
+    width: 100%;
+    height: 280px;
+  }
+  
+  .overlay-text {
+    width: 95%;
+    top: 15%; 
+    margin-left: 15px;  
+    padding: 5px;
+    font-size: 0.7rem;
+    
+  }
+  
+  .overlay-text h2{
+    font-weight: 300 ;
+    font-size: x-large;
+  }
+  
+  .typewriterpara {
+  font-size: 8px;                    /* Adjust size as needed */
+  font-weight: 100;                      /* Optional */
+  }
+  
+  .home-buttons {
+    margin-top: 8px;
+    height: 10px;
+  }
+  
+  
+  
+  .home-buttons button a{
+    display: flex;
+    font-size: 9px;
+    font-weight: 100;
+    padding: 2px;
+    
+  }
+  
+  
+  .home-buttons button{
+    margin-right: 8px;
+    border-radius: 2px;
+    padding: 1px;
+    height: 17px;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    -ms-border-radius: 2px;
+    -o-border-radius: 2px;
+} 
+  }
+  
+  
+
+
+    /* Styles for tablets */
+    @media (min-width: 767px) and (max-width: 1024px) {
+    
+      .home{
+        height: 408px;
+        width: 100vw;  
+      }
+      
+      .home-all{
+        width: 95%;
+        margin: auto;
+        padding-top: 40px;
+      }
+      
+      .background-img {
+        width: 100%;
+        height: 350px;
+      }
+      
+      .overlay-text {
+        width: 95%;
+        top: 15%; 
+        margin-left: 45px;  
+        padding: 5px;
+        font-size: 0.7rem;
+        
+      }
+      
+      .overlay-text h2{
+        font-weight: 300 ;
+        font-size: x-large;
+      }
+      
+      .typewriterpara {
+      font-size: 8px;                    /* Adjust size as needed */
+      font-weight: 100;                      /* Optional */
+      }
+      
+      .home-buttons {
+        margin-top: 8px;
+        height: 10px;
+      }
+      
+      
+      
+      .home-buttons button a{
+        display: flex;
+        font-size: 13px;
+        font-weight: 100;
+        padding: 2px;
+        
+      }
+      
+      
+      .home-buttons button{
+        margin-right: 9px;
+        border-radius: 2px;
+        padding: 1px;
+        height: 23px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    } 
+  
+    }
+  
+    /* Styles for laptops */
+    @media (min-width: 1024px) and (max-width: 1280px) {
+      .home{
+        height: 408px;
+        width: 100vw;  
+      }
+      
+      .home-all{
+        width: 95%;
+        margin: auto;
+        padding-top: 40px;
+      }
+      
+      .background-img {
+        width: 100%;
+        height: 350px;
+      }
+      
+      .overlay-text {
+        width: 95%;
+        top: 15%; 
+        margin-left: 5px;  
+        padding: 5px;
+        font-size: 0.7rem;
+        
+      }
+      
+      .overlay-text h2{
+        font-weight: 300 ;
+        font-size: x-large;
+      }
+      
+      .typewriterpara {
+      font-size: 8px;                    /* Adjust size as needed */
+      font-weight: 100;                      /* Optional */
+      }
+      
+      .home-buttons {
+        margin-top: 8px;
+        height: 10px;
+      }
+      
+      
+      
+      .home-buttons button a{
+        display: flex;
+        font-size: 9px;
+        font-weight: 100;
+        padding: 2px;
+        
+      }
+      
+      
+      .home-buttons button{
+        margin-right: 8px;
+        border-radius: 2px;
+        padding: 1px;
+        height: 17px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    } 
+
+    }
+
+    @media (min-width: 1024px) and (max-width: 1280px) {
+
+      .home{
+        height: 450px;
+        width: 100vw;  
+      }
+      
+      .home-all{
+        width: 80%;
+        margin: auto;
+        padding-top: 40px;
+      }
+      
+      .background-img {
+        width: 100%;
+        height: 380px;
+      }
+
+      
+      .overlay-text {
+        width: 95%;
+        top: 20%; 
+        margin-left: 5px;  
+        padding: 5px;
+        font-size: 0.7rem;
+        
+      }
+      
+      .overlay-text h2{
+        font-weight: 300 ;
+        font-size: xx-large;
+      }
+      
+      .typewriterpara {
+      font-size: 8px;                    /* Adjust size as needed */
+      font-weight: 100;                      /* Optional */
+      }
+      
+      .home-buttons {
+        margin-top: 8px;
+        height: 10px;
+      }
+      
+      
+      
+      .home-buttons button a{
+        display: flex;
+        font-size: 9px;
+        font-weight: 100;
+        padding: 2px;
+        
+      }
+      
+      
+      .home-buttons button{
+        margin-right: 8px;
+        border-radius: 2px;
+        padding: 1px;
+        height: 17px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        -ms-border-radius: 2px;
+        -o-border-radius: 2px;
+    } 
+    }
+
+     /* Styles for large monitors */
+ 

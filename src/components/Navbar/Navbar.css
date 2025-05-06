@@ -1,0 +1,245 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&display=swap');
+
+.Navbar{
+    
+    
+    align-items: center ;
+}
+
+
+.Navbar-all {
+  width: 80%;
+  height: 50px;
+  margin: auto;
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-left: 142px;
+  margin-top: 9px;
+  padding: 0 12px;
+  position: fixed;
+  top: 0%;
+  border-radius: 25px;
+  z-index: 60;
+  backdrop-filter: blur(10px); 
+}
+
+.ashish-name h2 {
+        font-family: "Caveat", cursive;
+        font-size: 2rem;
+        font-weight: 700;
+        color: var(--highlight-color);
+        margin-left: 5px;
+        animation: softBounce 3s ease-in infinite;
+        -webkit-animation: softBounce 4s ease-in infinite;
+}
+
+@keyframes softBounce {
+    0% {
+      transform: translateY(0);
+      animation-timing-function: ease-in-out;
+      
+      
+    }
+    50% {
+      transform: translateY(-7px);
+      animation-timing-function: ease-in;
+      
+}
+100% {
+    transform: translateY(0);
+    animation-timing-function: ease-in;
+    
+  }
+  
+}
+.Navbar-list {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+  font-weight: 500;
+  color: var(--text-color);
+}
+
+.Navbar-list a:hover {
+ 
+  color: var(--text-color2);
+}
+
+.email-button a {
+  display: flex;
+  justify-items: center;
+}
+
+.email-button a img {
+  width: 30px; /* adjust as needed */
+  height: auto; /* maintains aspect ratio */
+}
+
+
+
+
+
+
+
+
+  
+/* For Smartphones and smaller devices */
+@media (max-width: 480px) {
+  .Navbar{
+    justify-content: center;
+  }
+    .Navbar-all {
+        width: 100vw;
+      margin-left: 0;
+      margin-top: 8px;
+      padding: 0 10px;
+      }
+      
+      .ashish-name h2 {
+          
+        font-size: 1rem;  /* Reduce font size */
+        font-weight: 100;
+      }
+    
+      .Navbar-list {
+        gap: 0.4rem;  /* Reduce space between links */
+        font-size: 0.7rem;
+      }
+      .Navbar-list a:hover {
+  color: var(--hover-color);
+}
+
+    
+      .email-button a img {
+        width: 25px;  /* Adjust icon size */
+      }
+    
+  }
+
+
+  
+
+
+/* For Tablets and below (portrait) */
+@media (min-width: 480px) and (max-width: 767px){
+    
+    .Navbar-all {
+      width: 100vw;
+      
+      margin-left: 0;
+      margin-top: 8px;
+      padding: 0 10px;
+    }
+    
+    .ashish-name h2 {
+        
+      font-size: 1.2rem;  /* Reduce font size */
+      font-weight: 100;
+    }
+    .Navbar-list a:hover {
+        color: var(--hover-color);
+      }
+      
+  
+    .Navbar-list {
+      gap: 1rem;  /* Reduce space between links */
+      font-size: 1rem;
+    }
+  
+    .email-button a img {
+      width: 25px;  /* Adjust icon size */
+    }
+  }
+  
+
+
+  /* Styles for tablets */
+  @media (min-width: 767px) and (max-width: 1024px) {
+    
+      
+    .Navbar-all {
+      
+      width: 80vw;
+      
+      margin:  90px;
+      margin-top: 8px;
+      padding: 0 10px;
+    }
+
+  }
+
+  /* Styles for laptops */
+  @media (min-width: 1024px) and (max-width: 1280px) {
+    .Navbar-all {
+      
+      width: 80vw;
+      
+      margin:  90px;
+      margin-top: 8px;
+      padding: 0 10px;
+    }
+
+  }
+
+
+
+
+  /* Styles for large monitors */
+  @media (min-width: 1280px) {
+    .Navbar-all {
+      
+      width: 80vw;
+      
+      margin:  90px;
+      margin-top: 8px;
+      padding: 0 10px;
+    }
+
+
+  }
+
+
+
+
+
+
+
+  
+  /* For Large Screens (desktops) */
+  @media (min-width: 1200px) {
+    
+.Navbar-all {
+    width: 80%;
+    height: 50px;
+    margin: auto;
+   
+    display: flex;
+    align-items: center;
+
+    margin-left: 142px;
+    margin-top: 9px;
+    padding: 0 12px;
+    position: fixed;
+    top: 0%;
+    border-radius: 25px;
+  }
+  
+  .ashish-name h2 {
+          font-family: "Caveat", cursive;
+          font-size: 2rem;
+          font-weight: 700;
+          color: var(--highlight-color);
+          margin-left: 5px;
+          animation: softBounce 3s ease-in infinite;
+          -webkit-animation: softBounce 4s ease-in infinite;
+  }
+    .Navbar-list {
+      gap: 2.5rem;  /* Increase gap between links */
+    }
+  }
+
+
+  

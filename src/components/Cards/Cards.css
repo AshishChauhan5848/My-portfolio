@@ -1,0 +1,31 @@
+.cards{
+    margin-top: 25px;
+}
+
+.cards-all{
+    
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+      /* overflow:hidden; */
+      margin: 5px;
+      flex-wrap: wrap;
+    
+}
+
+@media (max-width: 480px) {
+  .cards{
+    margin-top: 15px;
+}
+
+.cards-all{
+    
+        display: flex;
+        justify-content: center;
+        gap: 35px;
+      /* overflow:hidden; */
+      margin: 5px;
+      flex-wrap: wrap;
+    
+}
+}
