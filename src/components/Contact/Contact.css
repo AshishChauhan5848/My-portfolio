@@ -183,6 +183,10 @@ button:hover {
  font-size: small;
  }
 
+ .boxes a:hover{
+  border: 2px solid var(--text-color2);
+ 
+}
 
 
 
