@@ -124,7 +124,7 @@
 
 .overlay-text {
   width: 90%;
-  top: 12%; 
+  top: 13%; 
   margin-left: 5px;  
   padding: 5px;
   font-size: 0.7rem;
@@ -133,11 +133,11 @@
 
 .overlay-text h2{
   font-weight: 100 ;
-  font-size: medium;
+  font-size: large;
 }
 
 .typewriterpara {
-font-size: 10px;                    /* Adjust size as needed */
+font-size: 11px;                    /* Adjust size as needed */
 font-weight: 100;                      /* Optional */
 }
 
