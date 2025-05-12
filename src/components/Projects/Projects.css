@@ -3,7 +3,7 @@
     height: 100%;
     width: 100vw;
     background-color: var(--about-color);
-    /* border: 5px solid rgb(0, 217, 255); */
+    border: 5px solid rgb(0, 217, 255);
   }
   
   .project-all {
@@ -105,10 +105,6 @@
     cursor: pointer;
     border: 1px solid gray;
     border-radius: 5px;
-    -webkit-border-radius: 5px;
-    -moz-border-radius: 5px;
-    -ms-border-radius: 5px;
-    -o-border-radius: 5px;
 }
 
   .overlay a:hover{
@@ -138,11 +134,11 @@
       }
       
       .project-content h3 {
-        font-size: 3vw;
+        font-size: 4vw;
       }
       
       .project-content-p {
-        font-size: 2.3vw;
+        font-size: 2.8vw;
         margin-top: 8px;
         margin-left: 46px;
       }
@@ -167,7 +163,7 @@
       }
       
       .overlay h3 {
-        font-size:10px;
+        font-size:7px;
       }
       
       .overlay p {
@@ -176,13 +172,16 @@
       }
       
       .overlay a{
-         height: 18px;
-         font-size: 10px;
-         width: 45px;
+         height: 11px;
+         font-size: 7px;
+         width: 35px;
          padding: 1px;
-         border-radius: 5px;
-     
-      }
+         border-radius: 3px;
+         -webkit-border-radius: 3px;
+         -moz-border-radius: 3px;
+         -ms-border-radius: 3px;
+         -o-border-radius: 3px;
+}
     
     
   }

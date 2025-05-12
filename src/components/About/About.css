@@ -2,7 +2,7 @@
   height: 100%;
   width: 100vw;
   background-color: var(--about-color);
-  /* border: 5px solid rgb(0, 217, 255); */
+  border: 5px solid rgb(0, 217, 255);
 }
 
 .about-all {
@@ -59,6 +59,15 @@
   font-weight: 100;
 }
 
+
+
+
+
+
+
+
+
+
 /* MEDIA QUERY fOR RESPONSIVENES */
 
 @media (max-width: 480px) {
@@ -69,7 +78,7 @@
       
       .about-all {
         width: 90%;
-        padding-top: 60px;
+        padding-top: 30px;
       }
 
       .about-content hr {
@@ -79,11 +88,11 @@
       }
       
       .about-content h3 {
-        font-size: 3vw;
+        font-size: 4vw;
       }
       
       .about-content-p {
-        font-size: 2.3vw;
+        font-size: 2.8vw;
         margin-top: 8px;
         margin-left: 45px;
         font-weight: 100;
@@ -94,11 +103,11 @@
       }
       
       .img-details h3 {
-        font-size: 3vw;
+        font-size: 3.2vw;
       }
       
       .details-h-p p {
-        font-size: 2.3vw;
+        font-size: 2.8vw;
       }
       
 

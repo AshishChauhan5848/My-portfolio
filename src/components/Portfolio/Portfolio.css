@@ -4,7 +4,7 @@
   height: 100%;
   width: 100vw;
   background-color: var(--about-color);
-  /* border: 5px solid rgb(0, 217, 255); */
+  border: 5px solid rgb(0, 217, 255);
 }
 
 .portfolio-all {
@@ -135,11 +135,11 @@
   }
 
   .portfolio-content h3 {
-    font-size: 3vw;
+    font-size: 4vw;
   }
 
   .portfolio-content-p {
-    font-size: 2.3vw;
+    font-size: 2.8vw;
     margin-top: 8px;
     margin-left: 46px;
   }
@@ -150,15 +150,15 @@
   }
 
   .tab {
-    font-size: 2.3vw;
-    padding: 5px 7px;
+    font-size: 2.4vw;
+    padding: 4px 5px;
   }
 
   .portfolio-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
     gap: 15px;
-    margin-left: 30px;
+    margin-left: 10px;
   }
 
   .portfolio-item {
@@ -166,7 +166,7 @@
   }
 
   .portfolio-item img {
-    width: 80%;
+    width: 100%;
     border-radius: 10px;
     transition: transform 0.3s;
   }

@@ -137,7 +137,7 @@
 }
 
 .typewriterpara {
-font-size: 8px;                    /* Adjust size as needed */
+font-size: 10px;                    /* Adjust size as needed */
 font-weight: 100;                      /* Optional */
 }
 
@@ -151,9 +151,9 @@ font-weight: 100;                      /* Optional */
 
 .home-buttons button a{
   display: flex;
-  font-size: 5px;
+  font-size: 8px;
   font-weight: 100;
-  padding: 1px;
+  padding: 3px;
   
 }
 
@@ -162,7 +162,7 @@ font-weight: 100;                      /* Optional */
   margin-right: 8px;
   border-radius: 2px;
   padding: 1px;
-  height: 9px;
+  height: 18px;
  
 } 
 }
