@@ -3,7 +3,7 @@
     height: 100%;
     width: 100vw;
     background-color: var(--about-color);
-    border: 5px solid rgb(0, 217, 255);
+    /* border: 5px solid rgb(0, 217, 255); */
   }
   
   .project-all {

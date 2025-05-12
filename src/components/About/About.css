@@ -2,7 +2,7 @@
   height: 100%;
   width: 100vw;
   background-color: var(--about-color);
-  border: 5px solid rgb(0, 217, 255);
+  /* border: 5px solid rgb(0, 217, 255); */
 }
 
 .about-all {
@@ -59,174 +59,146 @@
   font-weight: 100;
 }
 
-
-
-
-
-
-
-
-
-
 /* MEDIA QUERY fOR RESPONSIVENES */
 
 @media (max-width: 480px) {
-    .About {
-        height: 350px;
-        width: 100vw;
-      }
-      
-      .about-all {
-        width: 90%;
-        padding-top: 30px;
-      }
+  .About {
+    height: 380px;
+    width: 100vw;
+  }
 
-      .about-content hr {
-        width: 25px;
-        height: 6px;
-        margin-right: 20px;
-      }
-      
-      .about-content h3 {
-        font-size: 4vw;
-      }
-      
-      .about-content-p {
-        font-size: 2.8vw;
-        margin-top: 8px;
-        margin-left: 45px;
-        font-weight: 100;
-      }
-      
-      .img-details img {
-        height: 18vw;
-      }
-      
-      .img-details h3 {
-        font-size: 3.2vw;
-      }
-      
-      .details-h-p p {
-        font-size: 2.8vw;
-      }
-      
+  .about-all {
+    width: 90%;
+    padding-top: 30px;
+  }
 
+  .about-content hr {
+    width: 25px;
+    height: 6px;
+    margin-right: 20px;
+  }
 
+  .about-content h3 {
+    font-size: 4vw;
+  }
+
+  .about-content-p {
+    font-size: 2.8vw;
+    margin-top: 8px;
+    margin-left: 45px;
+    font-weight: 100;
+  }
+
+  .img-details img {
+    height: 18vw;
+  }
+
+  .img-details h3 {
+    font-size: 3.2vw;
+  }
+
+  .details-h-p p {
+    font-size: 2.8vw;
+  }
 }
-
-
-
 
 @media (min-width: 480px) and (max-width: 767px) {
-    .About {
-        height: 422px;
-      }
-      
-      .about-all {
-        width: 90%;
-        padding-top: 20px;
-      }
+  .About {
+    height: 422px;
+  }
 
-      .about-content hr {
-        width: 25px;
-        height: 6px;
-        margin-right: 20px;
-      }
-      
-      .about-content h3 {
-        font-size: 3vw;
-      }
-      
-      .about-content-p {
-        font-size: 2.3vw;
-        margin-top: 8px;
+  .about-all {
+    width: 90%;
+    padding-top: 20px;
+  }
 
-        margin-left: 45px;
-        font-weight: 100;
-      }
-      
-      .img-details img {
-        height: 18vw;
-      }
-      
-      .img-details h3 {
-        font-size: 3vw;
-      }
-      
-      .details-h-p p {
-        font-size: 2.3vw;
-      }
-      
+  .about-content hr {
+    width: 25px;
+    height: 6px;
+    margin-right: 20px;
+  }
 
+  .about-content h3 {
+    font-size: 3vw;
+  }
+
+  .about-content-p {
+    font-size: 2.3vw;
+    margin-top: 8px;
+
+    margin-left: 45px;
+    font-weight: 100;
+  }
+
+  .img-details img {
+    height: 18vw;
+  }
+
+  .img-details h3 {
+    font-size: 3vw;
+  }
+
+  .details-h-p p {
+    font-size: 2.3vw;
+  }
 }
-
-
 
 /* Styles for tablets */
 @media (min-width: 767px) and (max-width: 1024px) {
-    
-    .about-all {
-        width: 80%;
-        padding-top: 20px;
-      }
-      
-      .about-content h3 {
-        font-size: 2vw;
-      }
+  .about-all {
+    width: 80%;
+    padding-top: 20px;
+  }
 
-      .about-content-p {
-        font-size: 1.5vw;
-      }
+  .about-content h3 {
+    font-size: 2vw;
+  }
 
-      .img-details img {
-        height: 18vw;
-      }
-      
-      .img-details h3{
-        font-size: 2vw;
-      }
-      
-      .details-h-p p{
-        font-size: 1.5vw;
-      }
-      
-      
+  .about-content-p {
+    font-size: 1.5vw;
+  }
+
+  .img-details img {
+    height: 18vw;
+  }
+
+  .img-details h3 {
+    font-size: 2vw;
+  }
+
+  .details-h-p p {
+    font-size: 1.5vw;
+  }
 }
-
-
-
 
 /* Styles for laptops */
 @media (min-width: 1024px) and (max-width: 1280px) {
-    .About {
-        height: 370px;
-      }  
+  .About {
+    height: 370px;
+  }
 
+  .about-all {
+    width: 80%;
+    padding-top: 20px;
+  }
 
-    .about-all {
-        width: 80%;
-        padding-top: 20px;
-      }
-      
-      .about-content h3 {
-        font-size: 1.8vw;
-      }
+  .about-content h3 {
+    font-size: 1.8vw;
+  }
 
-      .about-content-p {
-        font-size: 1.3vw;
-      }
+  .about-content-p {
+    font-size: 1.3vw;
+  }
 
-      .img-details img {
-        height: 18vw;
-      }
-      
-      .img-details h3{
-        font-size: 1.8vw;
-      }
-      
-      .details-h-p p{
-        font-size: 1.3vw;
-      }
-      
+  .img-details img {
+    height: 18vw;
+  }
 
+  .img-details h3 {
+    font-size: 1.8vw;
+  }
+
+  .details-h-p p {
+    font-size: 1.3vw;
+  }
 }
