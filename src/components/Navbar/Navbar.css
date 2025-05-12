@@ -105,8 +105,8 @@
       }
     
       .Navbar-list {
-        gap: 0.6rem;  /* Reduce space between links */
-        font-size: 0.7rem;
+        gap: 0.5rem;  /* Reduce space between links */
+        font-size: 0.8rem;
       }
       .Navbar-list a:hover {
   color: var(--text-color2);
