@@ -35,10 +35,7 @@ const About = () => {
             <p>
               Over the past few years, I have worked on diverse projects that
               helped me sharpen my skills, expand my creativity, and better
-              understand how to turn ideas into reality. Whether it's designing
-              a brand identity, building a user-friendly app, or creating a
-              memorable digital experience, I always aim to bring value,
-              emotion, and innovation to everything I do.
+              understand how to turn ideas into reality.
             </p>
           </div>
         </div>
