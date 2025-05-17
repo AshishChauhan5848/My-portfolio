@@ -2,7 +2,6 @@ import React from "react";
 
 import "./Projects.css";
 import { assets } from "../../assets/assets.js";
-import { div } from "framer-motion/client";
 
 const projectData = [
   {
@@ -10,7 +9,7 @@ const projectData = [
     category: "React",
     img: assets.food_del,
     title: "Food delivery",
-    link: "https://google.com",
+    link: "https://food-del-frontend-kzbz.onrender.com",
   },
   {
     id: 3,
@@ -21,10 +20,10 @@ const projectData = [
   },
   {
     id: 2,
-    category: "Website Design",
-    img: assets.car2,
-    title: "LONG ROAD",
-    link: "https://google.com",
+    category: "Javascript",
+    img: assets.calculator,
+    title: "Calculator",
+    link: "https://ashishchauhan5848.github.io/Calculator/",
   },
 ];
 const Projects = () => {
