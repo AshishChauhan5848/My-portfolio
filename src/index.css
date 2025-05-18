@@ -26,7 +26,7 @@ a {
 :root {
   --text-color:  #ffffff;          /* Deep Charcoal */
   --text-color2:  #00d5ff;          /* Deep Charcoal */
-  --background-color: #00000046;    /* Elegant Off-White */
+  --background-color: #000000;    /* Elegant Off-White */
   --background-color2: #dc5f00; 
   --background-color3: #75020f; 
   --highlight-color: #00d5ff;          /* Card/Content Background */
