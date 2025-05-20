@@ -9,7 +9,7 @@ const projectData = [
     category: "React",
     img: assets.food_del,
     title: "Food delivery",
-    link: "https://food-del-frontend-kzbz.onrender.com",
+    link: "https://food-del-frontend-ntvo.onrender.com",
   },
   {
     id: 3,
